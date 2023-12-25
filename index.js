@@ -82,6 +82,6 @@ $("#replay").click(function()
 
 function playSound(name)
 {
-    var aud = new Audio(name+".mp3");
+    var aud = new Audio("./"+name+".mp3");
     aud.play();
 }

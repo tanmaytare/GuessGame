@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>🤔 Guess & Winn !! 🤑</h1>
+
+    <div class="scorecard">
+        <h3>Scorecard</h3>
+        <p id="numAttempts">No. of Attempts: 0</p>
+        
+      </div>
+
+      <div id="result" class="winner">
+        <h3 class="yay"> YaYY YOU WON IN -- ATTEMPS !!</h3>
+        <button id="replay">👉 Replay 👈</button>
+      </div>
+
+    <div class="container">
+        <h2>Guess the Number</h2>
+        <form id="guessForm">
+            <label for="userGuess">Enter your guess:</label>
+            <input class="num" type="number" id="userGuess" name="userGuess" required>
+            <button class="sub" type="button">Submit Guess</button>
+        </form>
+       
+    </div>
+
+    <div class="game-rules">
+        <h2>Guess the Number Rules</h2>
+    <p> 🔴 The computer will randomly take a number .</p>    
+    <p>🔴 Start and guess a number between 1-100.</p>
+    <p>🔴 Get feedback to adjust your guess.</p>
+    <p>🔴 Win by guessing the correct number.</p>
+    
+
+        <button id="enter">👉 Click Here to start the game 👈</button>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+<script src="./index.js"></script>
+</body>
+
+</html>
